@@ -704,14 +704,14 @@ export default class PoolTeam extends React.Component {
                                             {this.userdata.poolTwo?poo2.levelOne:0}
                                         </td>
                                         <td>
-                                            {this.userdata.poolTwo?"$"+(poo2.levelOneIncome>0?poo2.levelOneIncome:"32 CLAIMED"):"$0"}
+                                            {this.userdata.poolTwo?"$"+(poo2.levelOneIncome>=0?poo2.levelOneIncome:"32 CLAIMED"):"$0"}
                                         </td>
                                 
                                         <td>
                                             {this.userdata.poolTwo?poo2.levelTwo:0}
                                         </td>
                                         <td>
-                                            {this.userdata.poolTwo?"$"+(poo2.levelTwoIncome>0?poo2.levelTwoIncome:"128 CLAIMED"):"$0"}
+                                            {this.userdata.poolTwo?"$"+(poo2.levelTwoIncome>=0?poo2.levelTwoIncome:"128 CLAIMED"):"$0"}
                                         </td>
                                     
                                         <td>
@@ -800,10 +800,10 @@ export default class PoolTeam extends React.Component {
                                         <td>
                                             {this.userdata.poolThree?pool3.levelOne:0}
                                         </td>
-                                        <td>{this.userdata.poolThree?"$"+(pool3.levelOneIncome>0?pool3.levelOneIncome:"52 CLAIMED"):"$0"}</td>
+                                        <td>{this.userdata.poolThree?"$"+(pool3.levelOneIncome>=0?pool3.levelOneIncome:"52 CLAIMED"):"$0"}</td>
                                     
                                         <td>{this.userdata.poolThree?pool3.levelTwo:0}</td>
-                                        <td>{this.userdata.poolThree?"$"+(pool3.levelTwoIncome>0?pool3.levelTwoIncome:"208 CLAIMED"):"$0"}</td>
+                                        <td>{this.userdata.poolThree?"$"+(pool3.levelTwoIncome>=0?pool3.levelTwoIncome:"208 CLAIMED"):"$0"}</td>
                                     
                                         <td>{this.userdata.poolThree?pool3.levelThree:0}</td>
                                         <td>{this.userdata.poolThree?"$"+(pool3.levelThreeIncome):"$0"}</td>
@@ -881,10 +881,10 @@ export default class PoolTeam extends React.Component {
                                         <td>{++i4}</td>
 
                                         <td>{this.userdata.poolFour?pool4.levelOne:0}</td>
-                                        <td>{this.userdata.poolFour?"$"+(pool4.levelOneIncome>0?pool4.levelOneIncome:"104 CLAIMED"):"$0"}</td>
+                                        <td>{this.userdata.poolFour?"$"+(pool4.levelOneIncome>=0?pool4.levelOneIncome:"104 CLAIMED"):"$0"}</td>
                                     
                                         <td>{this.userdata.poolFour?pool4.levelTwo:0}</td>
-                                        <td>{this.userdata.poolFour?"$"+(pool4.levelTwoIncome>0?pool4.levelTwoIncome:"416 CLAIMED"):"$0"}</td>
+                                        <td>{this.userdata.poolFour?"$"+(pool4.levelTwoIncome>=0?pool4.levelTwoIncome:"416 CLAIMED"):"$0"}</td>
                                     
                                         <td>{this.userdata.poolFour?pool4.levelThree:0}</td>
                                         <td>{this.userdata.poolFour?"$"+(pool4.levelThreeIncome):"$0"}</td>
@@ -961,17 +961,17 @@ export default class PoolTeam extends React.Component {
                                     </thead>
                                     <tbody style={{maxHeight:"100px",overflow:"scroll"}}>
                                         {
-                                            this.state.pool5Details && this.state.pool4Details.map(pool5 => 
+                                            this.state.pool5Details && this.state.pool5Details.map(pool5 => 
                                                 
                                                 
                                         <tr>
                                         <td>{++i5}</td>
 
                                         <td>{this.userdata.poolFive?pool5.levelOne:0}</td>
-                                        <td>{this.userdata.poolFive?"$"+(pool5.levelOneIncome>0?pool5.levelOneIncome:"160 CLAIMED"):"$0"}</td>
+                                        <td>{this.userdata.poolFive?"$"+(pool5.levelOneIncome>=0?pool5.levelOneIncome:"160 CLAIMED"):"$0"}</td>
                                     
                                         <td>{this.userdata.poolFive?pool5.levelTwo:0}</td>
-                                        <td>{this.userdata.poolFive?"$"+(pool5.levelTwoIncome>0?pool5.levelTwoIncome:"640 CLAIMED"):"$0"}</td>
+                                        <td>{this.userdata.poolFive?"$"+(pool5.levelTwoIncome>=0?pool5.levelTwoIncome:"640 CLAIMED"):"$0"}</td>
                                     
                                         <td>{this.userdata.poolFive?pool5.levelThree:0}</td>
                                         <td>{this.userdata.poolFive?"$"+(pool5.levelThreeIncome):"$0"}</td>
@@ -1048,10 +1048,10 @@ export default class PoolTeam extends React.Component {
                                         <td>{++i6}</td>
 
                                         <td>{this.userdata.poolSix?pool6.levelOne:0}</td>
-                                        <td>{this.userdata.poolSix?"$"+(pool6.levelOneIncome>0?pool6.levelOneIncome:"212 CLAIMED"):"$0"}</td>
+                                        <td>{this.userdata.poolSix?"$"+(pool6.levelOneIncome>=0?pool6.levelOneIncome:"212 CLAIMED"):"$0"}</td>
                                 
                                         <td>{this.userdata.poolSix?pool6.levelTwo:0}</td>
-                                        <td>{this.userdata.poolSix?"$"+(pool6.levelTwoIncome>0?pool6.levelTwoIncome:"848 CLAIMED"):"$0"}</td>
+                                        <td>{this.userdata.poolSix?"$"+(pool6.levelTwoIncome>=0?pool6.levelTwoIncome:"848 CLAIMED"):"$0"}</td>
                                 
                                         <td>{this.userdata.poolSix?pool6.levelThree:0}</td>
                                         <td>{this.userdata.poolSix?"$"+(pool6.levelThree):"$0"}</td>
@@ -1135,10 +1135,10 @@ export default class PoolTeam extends React.Component {
                                         <td>{++i7}</td>
 
                                         <td>{this.userdata.poolSeven?pool7.levelOne:0}</td>
-                                        <td>{this.userdata.poolSeven?"$"+(pool7.levelOneIncome>0?pool7.levelOneIncome:"320 CLAIMED"):"$0"}</td>
+                                        <td>{this.userdata.poolSeven?"$"+(pool7.levelOneIncome>=0?pool7.levelOneIncome:"320 CLAIMED"):"$0"}</td>
                                     
                                         <td>{this.userdata.poolSeven?pool7.levelTwo:0}</td>
-                                        <td>{this.userdata.poolSeven?"$"+(pool7.levelTwoIncome>0?pool7.levelTwoIncome:"1280 CLAIMED"):"$0"}</td>
+                                        <td>{this.userdata.poolSeven?"$"+(pool7.levelTwoIncome>=0?pool7.levelTwoIncome:"1280 CLAIMED"):"$0"}</td>
                                     
                                         <td>{this.userdata.poolSeven?pool7.levelThree:0}</td>
                                         <td>{this.userdata.poolSeven?"$"+(pool7.levelThreeIncome):"$0"}</td>
@@ -1214,10 +1214,10 @@ export default class PoolTeam extends React.Component {
                                         <tr>
                                         <td>{++i8}</td>
                                         <td>{this.userdata.poolEight?pool8.levelOne:0}</td>
-                                        <td>{this.userdata.poolEight?"$"+(pool8.levelOneIncome>0?pool8.levelOneIncome:"532 CLAIMED"):"$0"}</td>
+                                        <td>{this.userdata.poolEight?"$"+(pool8.levelOneIncome>=0?pool8.levelOneIncome:"532 CLAIMED"):"$0"}</td>
                                     
                                         <td>{this.userdata.poolEight?pool8.levelTwo:0}</td>
-                                        <td>{this.userdata.poolEight?"$"+(pool8.levelTwoIncome>0?pool8.levelTwoIncome:"2128 CLAIMED"):"$0"}</td>
+                                        <td>{this.userdata.poolEight?"$"+(pool8.levelTwoIncome>=0?pool8.levelTwoIncome:"2128 CLAIMED"):"$0"}</td>
                                     
                                     
                                         <td>{this.userdata.poolEight?pool8.levelThree:0}</td>
@@ -1305,10 +1305,10 @@ export default class PoolTeam extends React.Component {
                                         <td>{++i9}</td>
 
                                         <td>{this.userdata.poolNine?pool9.levelOne:0}</td>
-                                        <td>{this.userdata.poolNine?"$"+(pool9.levelOneIncome>0?pool9.levelOneIncome:"800 CLAIMED"):"$0"}</td>
+                                        <td>{this.userdata.poolNine?"$"+(pool9.levelOneIncome>=0?pool9.levelOneIncome:"800 CLAIMED"):"$0"}</td>
                                     
                                         <td>{this.userdata.poolNine?pool9.levelTwo:0}</td>
-                                        <td>{this.userdata.poolNine?"$"+(pool9.levelTwoIncome>0?pool9.levelTwoIncome:"3200 CLAIMED"):"$0"}</td>
+                                        <td>{this.userdata.poolNine?"$"+(pool9.levelTwoIncome>=0?pool9.levelTwoIncome:"3200 CLAIMED"):"$0"}</td>
                                     
                                         <td>{this.userdata.poolNine?pool9.levelThree:0}</td>
                                         <td>{this.userdata.poolNine?"$"+(pool9.levelThreeIncome):"$0"}</td>
@@ -1383,11 +1383,11 @@ export default class PoolTeam extends React.Component {
                                         <tr>
                                         <td>{++i10}</td>
                                         <td>{this.userdata.poolTen?pool10.levelOne:0}</td>
-                                        <td>{this.userdata.poolTen?"$"+(pool10.levelOneIncome>0?pool10.levelOneIncome:"1064 CLAIMED"):"$0"}</td>
+                                        <td>{this.userdata.poolTen?"$"+(pool10.levelOneIncome>=0?pool10.levelOneIncome:"1064 CLAIMED"):"$0"}</td>
                                 
                                         
                                         <td>{this.userdata.poolTen?pool10.levelTwo:0}</td>
-                                        <td>{this.userdata.poolTen?"$"+(pool10.levelTwoIncome>0?pool10.levelTwoIncome:"4256 CLAIMED"):"$0"}</td>
+                                        <td>{this.userdata.poolTen?"$"+(pool10.levelTwoIncome>=0?pool10.levelTwoIncome:"4256 CLAIMED"):"$0"}</td>
                                     
                                     
                                         <td>{this.userdata.poolTen?pool10.levelThree:0}</td>

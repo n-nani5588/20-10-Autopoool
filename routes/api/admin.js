@@ -1569,14 +1569,14 @@ console.log(userids);
 
                         await  Users.updateMany(
                             {
-                                    _id:
+                                    userId:
                                             {
-                                                $in: userids
+                                                $in: userqwe
                                             }
                             },
                             {
                                 $inc: {
-                                    autoPoolIncome : 2
+                                    autoPoolIncome : parseFloat(2)
                                 }
                             },
                             {
@@ -1638,14 +1638,14 @@ console.log(userids);
             console.log(userids);
                         await  Users.updateMany(
                             {
-                                    _id:
+                                userId:
                                             {
-                                                $in: userids
+                                                $in: userqwe
                                             }
                             },
                             {
                                 $inc: {
-                                    autoPoolIncome : 16
+                                    autoPoolIncome :parseFloat(16)
                                 }
                             },
                             {
@@ -1954,14 +1954,14 @@ console.log(userids);
 
                         await  Users.updateMany(
                             {
-                                    _id:
+                                userId:
                                             {
-                                                $in: userids
+                                                $in: userqwe
                                             }
                             },
                             {
                                 $inc: {
-                                    autoPoolIncome : 32
+                                    autoPoolIncome : parseFloat(32)
                                 }
                             },
                             {
@@ -2023,14 +2023,14 @@ console.log(userids);
             console.log(userids);
                         await  Users.updateMany(
                             {
-                                    _id:
+                                userId:
                                             {
-                                                $in: userids
+                                                $in: userqwe
                                             }
                             },
                             {
                                 $inc: {
-                                    autoPoolIncome : 128
+                                    autoPoolIncome :parseFloat(128)
                                 }
                             },
                             {
@@ -2328,14 +2328,14 @@ console.log(userids);
 
                         await  Users.updateMany(
                             {
-                                    _id:
+                                userId:
                                             {
-                                                $in: userids
+                                                $in: userqwe
                                             }
                             },
                             {
                                 $inc: {
-                                    autoPoolIncome : 52
+                                    autoPoolIncome : parseFloat(52)
                                 }
                             },
                             {
@@ -2397,14 +2397,14 @@ console.log(userids);
             console.log(userids);
                         await  Users.updateMany(
                             {
-                                    _id:
+                                userId:
                                             {
-                                                $in: userids
+                                                $in: userqwe
                                             }
                             },
                             {
                                 $inc: {
-                                    autoPoolIncome : 208
+                                    autoPoolIncome : parseFloat(208)
                                 }
                             },
                             {
@@ -2702,14 +2702,14 @@ console.log(userids);
 
                         await  Users.updateMany(
                             {
-                                    _id:
+                                    userId:
                                             {
-                                                $in: userids
+                                                $in: userqwe
                                             }
                             },
                             {
                                 $inc: {
-                                    autoPoolIncome : 104
+                                    autoPoolIncome : parseFloat(104)
                                 }
                             },
                             {
@@ -2771,14 +2771,14 @@ console.log(userids);
             console.log(userids);
                         await  Users.updateMany(
                             {
-                                    _id:
+                                userId:
                                             {
-                                                $in: userids
+                                                $in: userqwe
                                             }
                             },
                             {
                                 $inc: {
-                                    autoPoolIncome : 416
+                                    autoPoolIncome :parseFloat(416)
                                 }
                             },
                             {
@@ -3077,14 +3077,14 @@ console.log(userids);
 
                         await  Users.updateMany(
                             {
-                                    _id:
+                                userId:
                                             {
-                                                $in: userids
+                                                $in: userqwe
                                             }
                             },
                             {
                                 $inc: {
-                                    autoPoolIncome : 160
+                                    autoPoolIncome : parseFloat(160)
                                 }
                             },
                             {
@@ -3146,14 +3146,14 @@ console.log(userids);
             console.log(userids);
                         await  Users.updateMany(
                             {
-                                    _id:
+                                userId:
                                             {
-                                                $in: userids
+                                                $in: userqwe
                                             }
                             },
                             {
                                 $inc: {
-                                    autoPoolIncome : 640
+                                    autoPoolIncome : parseFloat(640)
                                 }
                             },
                             {
@@ -3450,14 +3450,14 @@ async function shareAutopoolSixLevelMoney(){
 
                         await  Users.updateMany(
                             {
-                                    _id:
+                                userId:
                                             {
-                                                $in: userids
+                                                $in: userqwe
                                             }
                             },
                             {
                                 $inc: {
-                                    autoPoolIncome : 212
+                                    autoPoolIncome : parseFloat(212)
                                 }
                             },
                             {
@@ -3519,14 +3519,14 @@ async function shareAutopoolSixLevelMoney(){
             console.log(userids);
                         await  Users.updateMany(
                             {
-                                    _id:
+                                userId:
                                             {
-                                                $in: userids
+                                                $in: userqwe
                                             }
                             },
                             {
                                 $inc: {
-                                    autoPoolIncome : 848
+                                    autoPoolIncome : parseFloat(848)
                                 }
                             },
                             {
@@ -3822,14 +3822,14 @@ async function shareAutopoolSevenLevelMoney(){
 
                         await  Users.updateMany(
                             {
-                                    _id:
+                                userId:
                                             {
-                                                $in: userids
+                                                $in: userqwe
                                             }
                             },
                             {
                                 $inc: {
-                                    autoPoolIncome : 320
+                                    autoPoolIncome : parseFloat(320)
                                 }
                             },
                             {
@@ -3891,14 +3891,14 @@ async function shareAutopoolSevenLevelMoney(){
             console.log(userids);
                         await  Users.updateMany(
                             {
-                                    _id:
+                                userId:
                                             {
-                                                $in: userids
+                                                $in: userqwe
                                             }
                             },
                             {
                                 $inc: {
-                                    autoPoolIncome : 1280
+                                    autoPoolIncome : parseFloat(1280)
                                 }
                             },
                             {
@@ -4194,14 +4194,14 @@ async function shareAutopoolEightLevelMoney(){
 
                         await  Users.updateMany(
                             {
-                                    _id:
+                                userId:
                                             {
-                                                $in: userids
+                                                $in: userqwe
                                             }
                             },
                             {
                                 $inc: {
-                                    autoPoolIncome : 532
+                                    autoPoolIncome : parseFloat(532)
                                 }
                             },
                             {
@@ -4263,14 +4263,14 @@ async function shareAutopoolEightLevelMoney(){
             console.log(userids);
                         await  Users.updateMany(
                             {
-                                    _id:
+                                userId:
                                             {
-                                                $in: userids
+                                                $in: userqwe
                                             }
                             },
                             {
                                 $inc: {
-                                    autoPoolIncome : 2128
+                                    autoPoolIncome : parseFloat(2128)
                                 }
                             },
                             {
@@ -4566,14 +4566,14 @@ async function shareAutopoolNineLevelMoney(){
 
                         await  Users.updateMany(
                             {
-                                    _id:
+                                userId:
                                             {
-                                                $in: userids
+                                                $in: userqwe
                                             }
                             },
                             {
                                 $inc: {
-                                    autoPoolIncome : 800
+                                    autoPoolIncome : parseFloat(800)
                                 }
                             },
                             {
@@ -4635,14 +4635,14 @@ async function shareAutopoolNineLevelMoney(){
             console.log(userids);
                         await  Users.updateMany(
                             {
-                                    _id:
+                                userId:
                                             {
-                                                $in: userids
+                                                $in: userqwe
                                             }
                             },
                             {
                                 $inc: {
-                                    autoPoolIncome : 3200
+                                    autoPoolIncome : parseFloat(3200)
                                 }
                             },
                             {
@@ -4938,14 +4938,14 @@ async function shareAutopoolTenLevelMoney(){
 
                         await  Users.updateMany(
                             {
-                                    _id:
+                                userId:
                                             {
-                                                $in: userids
+                                                $in: userqwe
                                             }
                             },
                             {
                                 $inc: {
-                                    autoPoolIncome : 1064
+                                    autoPoolIncome : parseFloat(1064)
                                 }
                             },
                             {
@@ -5007,14 +5007,14 @@ async function shareAutopoolTenLevelMoney(){
             console.log(userids);
                         await  Users.updateMany(
                             {
-                                    _id:
+                                userId:
                                             {
-                                                $in: userids
+                                                $in: userqwe
                                             }
                             },
                             {
                                 $inc: {
-                                    autoPoolIncome : 4256
+                                    autoPoolIncome : parseFloat(4256)
                                 }
                             },
                             {
