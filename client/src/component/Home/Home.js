@@ -69,8 +69,7 @@ export default class Home extends React.Component{
                 <Grid item>
                     {/* Displays   ABOUT component */}
                  <div style={{width:"100%",textAlign:"center"}}>
-                 <Aboutus></Aboutus>
-                 
+                  <Aboutus></Aboutus>
                  </div>
                   
                 </Grid>
@@ -137,7 +136,6 @@ export default class Home extends React.Component{
                         <div className="blog-post">
                              <div className="blog-post__img">
                                  <img className="img1" src={process.env.PUBLIC_URL + '/images/propic.jpg'}></img>
-
                              </div>
                              <div className="blog-post__info">
                              <h1 className="blog-post__tittle">
@@ -150,8 +148,7 @@ export default class Home extends React.Component{
                              </div>
                          
                         </div>
-                        </div>
-                        
+                        </div>  
                     </div>
                 </Grid>  */}
 
